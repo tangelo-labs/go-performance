@@ -53,7 +53,8 @@ func main() {
 
 	// Create a context taking into account the timeout because 
 	// the Runner will run until the context is canceled or the duration runner.Run parameter is reached.
-	// If context is less than the duration runner.Run parameter, the Runner will stop when the context is canceled due to the timeout.
+	// If context is less than the duration runner.Run parameter, 
+	// the Runner will stop when the context is canceled due to the timeout.
 	ctx, cancel := context.WithTimeout(context.Background(), 10 *time.Second)
 	defer cancel()
 	
