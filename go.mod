@@ -1,4 +1,4 @@
-module performance
+module github.com/tangelo-labs/go-performance
 
 go 1.20
 
