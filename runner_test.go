@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 	"math/rand"
-	"performance"
 	"testing"
 	"time"
 
 	"github.com/brianvoe/gofakeit/v6"
 	"github.com/stretchr/testify/require"
+	"github.com/tangelo-labs/go-performance"
 )
 
 func TestRunner(t *testing.T) {
