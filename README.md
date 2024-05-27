@@ -39,7 +39,7 @@ import (
 	"github.com/tangelo-labs/go-performance"
 )
 
-func main() {
+func Example() {
 	// Define the test function
 	testFunc := func() error {
 		// This is where your test code would go.
