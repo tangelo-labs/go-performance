@@ -104,3 +104,7 @@ This project depends on several Go packages, which can be found in the `go.mod` 
 ## Conclusion
 
 This tool is useful for performing stress tests on Go applications, allowing developers to identify and address performance and reliability issues.
+
+## License
+
+`go-performance` is licensed under the MIT License. See the `LICENSE` file for more information.
